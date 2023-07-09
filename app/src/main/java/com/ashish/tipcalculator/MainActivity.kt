@@ -226,7 +226,7 @@ fun BillForm(
                                 )
                             totalPerPersonState.value = calculatePerPerson(
                                 totalBillState.value.toDouble(),
-                                sliderValue.value.toInt(), tip
+                                noOfPersons.value, tip
                             )
                         },
                         modifier = Modifier.padding(start = 10.dp, end = 10.dp),
